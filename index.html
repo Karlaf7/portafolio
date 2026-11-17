@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Karla Andrea Fuentes Hoyos · Desarrolladora de software en proceso</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="bg-[color:var(--bg)] font-sans text-[color:var(--ink)] leading-relaxed">
+
+  <header class="mx-auto flex max-w-5xl items-center justify-between px-6 py-5">
+    <a href="#inicio" class="display text-xl font-bold">Karla F.</a>
+    <nav class="flex gap-4 text-sm font-medium sm:gap-6 sm:text-base">
+      <a href="#sobre-mi" class="hover:underline">Sobre mí</a>
+      <a href="#habilidades" class="hover:underline">Habilidades</a>
+      <a href="#aprendiendo" class="hover:underline">Aprendiendo</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="inicio" class="relative mx-auto max-w-5xl overflow-hidden px-6 pb-20 pt-12 md:pt-20">
+      <div class="absolute -right-24 -top-12 z-0 h-[22rem] w-[22rem] rounded-full bg-[color:var(--soft)] opacity-70 blur-[2px]"></div>
+      <div class="absolute bottom-4 right-36 z-0 h-36 w-36 rounded-full bg-[color:var(--soft)] opacity-90 blur-[2px]"></div>
+
+      <div class="hero-in relative z-10 flex flex-col-reverse items-center gap-10 md:flex-row md:justify-between">
+        <div class="max-w-xl">
+          <p class="mb-4 text-lg text-[color:var(--muted)]">Hola, soy</p>
+          <h1 class="display text-5xl font-bold md:text-7xl lg:text-8xl">Karla Andrea<br>Fuentes Hoyos</h1>
+          <p class="mt-6 max-w-xl text-lg md:text-xl">
+            Desarrolladora de software en proceso. Cada día escribo un poco más de código y aprendo algo nuevo.
+          </p>
+        </div>
+        <img src="foto.png" alt="Foto de Karla"
+             class="relative z-10 h-44 w-44 shrink-0 rounded-full border-[3px] border-[color:var(--accent)] object-cover md:h-48 md:w-48 lg:h-56 lg:w-56">
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="mx-auto max-w-5xl px-6 py-14">
+      <div class="rounded-3xl border-[1.5px] border-[color:var(--line)] bg-[color:var(--surface)] p-8 md:p-12">
+        <h2 class="display text-3xl font-bold md:text-4xl">Sobre mí</h2>
+        <p class="mt-5 max-w-2xl text-lg">
+          Estoy construyendo mi camino como desarrolladora de software. Ya manejo las bases de la web: estructura con HTML, estilos con CSS y diseño con Bootstrap y Tailwind. Ahora estoy dando el siguiente paso: darle vida a mis páginas con JavaScript.
+        </p>
+      </div>
+    </section>
+
+    <section id="habilidades" class="mx-auto max-w-5xl px-6 py-14">
+      <h2 class="display text-3xl font-bold md:text-4xl">Mis conocimientos</h2>
+      <p class="mt-3 text-[color:var(--muted)]">Nivel básico en estas herramientas, y creciendo.</p>
+
+      <div class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div class="rounded-3xl border-[1.5px] border-[color:var(--line)] bg-[color:var(--surface)] p-6">
+          <div class="flex justify-between font-bold"><span>HTML</span><span class="font-medium text-[color:var(--muted)]">Básico</span></div>
+          <div class="mt-3 h-2.5 overflow-hidden rounded-full bg-[color:var(--soft)]">
+            <span class="block h-full w-[45%] rounded-full bg-[color:var(--accent)]"></span>
+          </div>
+        </div>
+
+        <div class="rounded-3xl border-[1.5px] border-[color:var(--line)] bg-[color:var(--surface)] p-6">
+          <div class="flex justify-between font-bold"><span>CSS</span><span class="font-medium text-[color:var(--muted)]">Básico</span></div>
+          <div class="mt-3 h-2.5 overflow-hidden rounded-full bg-[color:var(--soft)]">
+            <span class="block h-full w-[45%] rounded-full bg-[color:var(--accent)]"></span>
+          </div>
+        </div>
+
+        <div class="rounded-3xl border-[1.5px] border-[color:var(--line)] bg-[color:var(--surface)] p-6">
+          <div class="flex justify-between font-bold"><span>Bootstrap</span><span class="font-medium text-[color:var(--muted)]">Básico</span></div>
+          <div class="mt-3 h-2.5 overflow-hidden rounded-full bg-[color:var(--soft)]">
+            <span class="block h-full w-2/5 rounded-full bg-[color:var(--accent)]"></span>
+          </div>
+        </div>
+
+        <div class="rounded-3xl border-[1.5px] border-[color:var(--line)] bg-[color:var(--surface)] p-6">
+          <div class="flex justify-between font-bold"><span>Tailwind CSS</span><span class="font-medium text-[color:var(--muted)]">Básico</span></div>
+          <div class="mt-3 h-2.5 overflow-hidden rounded-full bg-[color:var(--soft)]">
+            <span class="block h-full w-2/5 rounded-full bg-[color:var(--accent)]"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="aprendiendo" class="mx-auto max-w-5xl px-6 py-14">
+      <div class="relative overflow-hidden rounded-3xl border-[1.5px] border-[color:var(--line)] bg-[color:var(--soft)] p-8 md:p-12">
+        <h2 class="display text-3xl font-bold md:text-4xl">Aprendiendo ahora: JavaScript</h2>
+        <p class="mt-4 max-w-2xl text-lg">
+          Estoy aprendiendo a construir páginas interactivas con JavaScript: formularios con validación, botones con respuesta y contenido dinámico.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-2">
+          <span class="rounded-full border-[1.5px] border-[color:var(--line)] bg-[color:var(--surface)] px-4 py-1.5 font-medium">Variables</span>
+          <span class="rounded-full border-[1.5px] border-[color:var(--line)] bg-[color:var(--surface)] px-4 py-1.5 font-medium">Funciones</span>
+          <span class="rounded-full border-[1.5px] border-[color:var(--line)] bg-[color:var(--surface)] px-4 py-1.5 font-medium">Eventos</span>
+          <span class="rounded-full border-[1.5px] border-[color:var(--line)] bg-[color:var(--surface)] px-4 py-1.5 font-medium">El DOM</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="mx-auto max-w-5xl px-6 pb-12 pt-8 text-center text-sm text-[color:var(--muted)]">
+    <p>© 2026 Karla Andrea Fuentes Hoyos</p>
+  </footer>
+
+</body>
+</html>
